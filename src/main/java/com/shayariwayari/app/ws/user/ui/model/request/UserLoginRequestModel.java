@@ -1,0 +1,13 @@
+package com.shayariwayari.app.ws.user.ui.model.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserLoginRequestModel {
+    private String email;
+    private String password;
+}
